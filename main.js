@@ -32,6 +32,7 @@ app.get('/', (req, res) => {
     result = {}
     if (query.path === undefined) {
         res.sendStatus(400);
+        return;
     }
     result.path = decodeURI(query.path)
 
