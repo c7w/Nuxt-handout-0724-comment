@@ -12,7 +12,7 @@ Powered by Express.
 Now the API would listen on Port `port` (default 10001)
 
 ## Get
-`/path=<path>`
+`/?path=<path>`
 
 Return the JSON content of `./comments/<path>.json`
 
@@ -22,7 +22,7 @@ In `req.body`:
 {
   "path": "<path>", 
   "data": {
-    "time": <time>,
+    "time": "<time>",
     "nickname": "<nickname>",
     "email": "<email>",
     "content": "<content>"
