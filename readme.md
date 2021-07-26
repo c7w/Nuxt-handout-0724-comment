@@ -1,5 +1,6 @@
 ## Nuxt-handout-0724-comment
 A comment API developed for Nuxt-handout-0724.
+
 Powered by Express.
 
 ## Usage
@@ -12,6 +13,7 @@ Now the API would listen on Port `port` (default 10001)
 
 ## Get
 `/path=<path>`
+
 Return the JSON content of `./comments/<path>.json`
 
 ## Post
